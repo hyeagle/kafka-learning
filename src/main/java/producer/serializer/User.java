@@ -10,6 +10,10 @@ public class User {
 
     private String address;
 
+    public User() {
+
+    }
+
     public User(String firstName, String lastName, int age, String address) {
         this.firstName = firstName;
         this.lastName = lastName;

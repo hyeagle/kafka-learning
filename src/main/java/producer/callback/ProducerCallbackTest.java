@@ -21,7 +21,6 @@ public class ProducerCallbackTest {
                     (recordMetadata, e) -> System.out.printf("callback, offset =  %d, partition = %d%n", recordMetadata.offset(), recordMetadata.partition()));
         }
 
-
         producer.close();
     }
 }
